@@ -39,7 +39,7 @@ endfunction
 " ---------------------------------------------------------------------
 " Autocmds:
 au InsertLeave * call Fcitx2en()
-au InsertEnter * call Fcitx2zh()
+au InsertEnter * call Fcitx2en()
 " ---------------------------------------------------------------------
 "  Restoration And Modelines:
 let &cpo=s:keepcpo
