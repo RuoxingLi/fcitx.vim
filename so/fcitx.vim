@@ -37,7 +37,7 @@ function Fcitx2zh()
   endtry
 endfunction
 " ---------------------------------------------------------------------
-" Autocmds:
+" Autocmds: 所有模式都默认进入英文状态
 au InsertLeave * call Fcitx2en()
 au InsertEnter * call Fcitx2en()
 " ---------------------------------------------------------------------
